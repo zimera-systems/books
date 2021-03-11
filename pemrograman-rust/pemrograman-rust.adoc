@@ -1,0 +1,102 @@
+= Pemrograman Rust
+Dr. Bambang Purnomosidi D. P. <bambangpdp@gmail.com>
+v0.0.1-rev-{localdatetime}
+:doctype: book
+:toc:
+:toc-title: Daftar Isi
+:table-caption: Tabel
+:source-highlighter: rouge
+:sectnums:
+:description: Dokumen ini membahas tentang dasar-dasar pemrograman Rust serta eksosistem dari bahasa pemrograman.
+:sourcedir: src
+:includedir: isi
+:imagesdir: gambar
+:chapter-label: Bab
+:figure-caption: Gambar 
+////
+Jika satu gambar penuh - cover
+:front-cover-image: image::./images/title_page.png[]
+////
+:title-logo-image: gambar/logo-rust.png
+
+[preface]
+= Pengantar
+
+Sebuah buku tentang https://www.rust-lang.org[Bahasa Pemrograman Rust].
+
+=== Penghargaan
+
+Kami mengucapkan terima kasih atas partisipasi dari rekan-rekan semua.
+
+= Bagian I: Pengenalan dan Ekosistem
+
+[partintro]
+--
+Bagian ini menjelaskan tentang gambaran umum dari Rust serta persiapan untuk membangun aplikasi
+menggunakan Rust
+--
+
+include::{includedir}/01-01-mengenal-rust.adoc[]
+
+include::{includedir}/01-02-instalasi-rust.adoc[]
+
+include::{includedir}/01-03-ide-untuk-rust.adoc[]
+
+include::{includedir}/01-04-ekosistem-rust.adoc[]
+
+include::{includedir}/01-05-struktur-proyek-rust.adoc[]
+
+= Bagian II: Sintaksis dan Semantik dari Rust
+
+[partintro]
+--
+Bagian ini menjelaskan tentang sintaksis dari bahasa pemrograman Rust. Beberapa bagian sudah
+membahas tentang pustaka standar sesuai pada materi pembahasan. Jika merupakan pustaka standar,
+bagian tersebut akan diberi catatan.
+--
+
+include::{includedir}/02-01-variabel-komentar.adoc[]
+
+include::{includedir}/02-02-tipe-data.adoc[]
+
+include::{includedir}/02-03-fungsi.adoc[]
+
+include::{includedir}/02-04-pengendali-aliran.adoc[]
+
+include::{includedir}/02-05-struktur-data.adoc[]
+
+include::{includedir}/02-06-ownership.adoc[]
+
+include::{includedir}/02-07-enum.adoc[]
+
+include::{includedir}/02-08-pattern-matching.adoc[]
+
+include::{includedir}/02-09-reusability.adoc[]
+
+include::{includedir}/02-10-mengelola-error.adoc[]
+
+= Bagian III: Pustaka Standar Rust
+
+[partintro]
+--
+Bagian ini menjelaskan berbagai pustaka standar dari Rust. Pustaka standar merupakan API yang
+menjadi bagian dari Rust dan bisa diakses setelah kita melakukan instalasi Rust tanpa perlu
+melakukan instalasi tambahan lain. Bagian ini tidak menjelaskan secara rinci semua pustaka standar,
+tetapi hanya beberapa saja. Setelah itu, pembaca bisa melihat pada dokumentasi lengkap dari pustaka
+standar dari Rust untuk mengetahui lebih lanjut.
+--
+
+include::{includedir}/03-01-mengelola-string.adoc[]
+
+include::{includedir}/03-02-pemrograman-konkuren.adoc[]
+
+include::{includedir}/03-03-net.adoc[]
+
+include::{includedir}/03-04-path.adoc[]
+
+include::{includedir}/03-05-sistem-file.adoc[]
+
+include::{includedir}/03-06-operasi-io.adoc[]
+
+include::{includedir}/03-07-mengelola-proses.adoc[]
+
