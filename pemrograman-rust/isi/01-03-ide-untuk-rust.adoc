@@ -21,11 +21,7 @@ dan digunakan dalam bab ini, yaitu:
 
 === Eclipse (wip)
 
-https://eclipse.org[Eclipse Foundation] juga mempunyai proyek yang didedikasikan untuk membuat IDE
-Rust dengan basis IDE Eclipse untuk membangun aplikasi menggunakan Rust. Untuk memperoleh software
-ini, silahkan akses ke https://www.eclipse.org/downloads/packages/ dan pilih
-<<#gbr-web-ecipse-rust>>. Untuk menjalankan ini, anda seharusnya sudah mempunyai JDK (Java
-Development Kit) terinstall di komputer anda.
+https://eclipse.org[Eclipse Foundation] juga mempunyai proyek yang didedikasikan untuk membuat IDE Rust dengan basis IDE Eclipse untuk membangun aplikasi menggunakan Rust. Untuk memperoleh software ini, silahkan akses ke https://www.eclipse.org/downloads/packages/ dan pilih <<#gbr-web-ecipse-rust>>. Untuk menjalankan ini, anda seharusnya sudah mempunyai JDK (Java Development Kit) terinstall di komputer anda. Untuk mengikuti perkembangan dari *Eclipse Corrosion* (IDE Eclipse untuk Rust), silahkan mengakses di https://projects.eclipse.org/projects/tools.corrosion[Web untuk Eclipse Corrosion].
 
 [#gbr-web-eclipse-rust]
 .Paket Eclipse for Rust Developers
