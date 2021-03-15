@@ -1,6 +1,6 @@
 # Buku "Pemrograman Rust"
 
-Buku ini mempelajari dasar-dasar pemrograman menggunakan bahasa pemrograman Rust. Sasaran utama dari buku ini adalah para pemrograman yang sudah mengetahui tentang bahasa pemrograman tetapi belum pernah menggunakan Rust. Silahkan membaca [panduan untuk berkontribusi](kontribusi.md) jika anda ingin berkontribusi. Bagian-bagian buku (bab dan sub-bab) ini ditandai dengan tanda-tanda berikut:
+Buku ini mempelajari dasar-dasar pemrograman menggunakan bahasa pemrograman Rust. Sasaran utama dari buku ini adalah para pemrogram yang sudah mengetahui tentang bahasa pemrograman tetapi belum pernah menggunakan Rust. Silahkan membaca [panduan untuk berkontribusi](../kontribusi.md) jika anda ingin berkontribusi. Bagian-bagian buku (bab dan sub-bab) ini ditandai dengan tanda-tanda berikut:
 
 1.  **wip**: *Work In Progress* - bagian ini masih dalam proses pengerjaan.
 2.  **wip-nr**: *Work In Progress - Need Review* - bagian ini dianggap sudah selesai (draft) tetapi masih perlu review. 
