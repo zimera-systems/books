@@ -7,7 +7,8 @@ v0.0.1-rev-{localdatetime}
 :table-caption: Tabel
 :source-highlighter: rouge
 :sectnums:
-:description: Dokumen ini membahas tentang dasar-dasar pemrograman Rust serta eksosistem dari bahasa pemrograman.
+:description: Buku ini membahas tentang dasar-dasar pemrograman Rust \
+              serta eksosistem dari bahasa pemrograman Rust.
 :sourcedir: src
 :includedir: isi
 :imagesdir: gambar
@@ -22,11 +23,33 @@ Jika satu gambar penuh - cover
 [preface]
 = Pengantar
 
-Sebuah buku tentang https://www.rust-lang.org[Bahasa Pemrograman Rust].
+image::logo.png[Zimera Systems, 150, 150]
+
+Buku ini merupakan buku bebas tentang bahasa pemrograman Rust. Rust merupakan bahasa pemrograman yang pertama kali dibuat oleh Gordon Hoare di Mozilla Research dan bisa digunakan untuk berbagai domain permasalahan meskipun lebih banyak digunakan pada tatarn pemrograman sistem. Buku ini dibuat dengan sponsor dari Zimera Systems dan mempunyai lisensi *Creative Commons Attribution-ShareAlike 4.0 International*.
+
+image::cc-by-sa.png[CC-BY-SA 4.0 International]
+
+* https://creativecommons.org/licenses/by-sa/4.0/deed.id[Lisensi dalam Bahasa Indonesia - https://creativecommons.org/licenses/by-sa/4.0/deed.id].
+* https://creativecommons.org/licenses/by-sa/4.0/deed.en[Lisensi dalam Bahasa Inggris - https://creativecommons.org/licenses/by-sa/4.0/deed.en].
+
+Secara umum, penggunaan lisensi ini mempunyai implikasi bahwa pengguna materi: 
+
+1.  Harus memberikan atribusi ke penulis dan sponsor untuk penulisan materi ini.
+2.  Boleh menggunakan produk yang ada disini untuk keperluan apapun jika point 1 di atas terpenuhi.
+3.  Boleh membuat produk derivatif dari produk yang ada disini sepanjang perubahan-perubahan yang dilakukan diberitahukan ke kami dan di-share dengan menggunakan lisensi yang sama.
+
+### Atribusi
+
+*Dr. Bambang Purnomosidi D. P.* +
+*_Zimera Systems_* +
+Dusun Medelan, Umbulmartani, Ngemplak +
+Sleman, DIY + 
+https://www.google.com/maps/place/Zimera+Systems/@-7.6975303,110.43921,17z/data=!3m1!4b1!4m5!3m4!1s0x2e7a5d7cc40e8871:0x2d44da15f0b3781e!8m2!3d-7.6975303!4d110.4413987 +
+E-mail: zimera-systems@gmail.com
 
 === Penghargaan
 
-Kami mengucapkan terima kasih atas partisipasi dari rekan-rekan semua.
+Pembuatan buku ini merupakan hasil pekerjaan kolektif baik secara langsung maupun tidak langsung. Penulis serta kontributor mengucapkan terima kasih untuk Zimera Systems yang telah memberikan *sponsorship* selama penulisan buku ini.
 
 = Bagian I: Pengenalan dan Ekosistem
 
