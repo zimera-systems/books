@@ -16,17 +16,18 @@ v0.0.1-rev-{localdatetime}
 :imagesdir: gambar
 :chapter-label: Bab
 :figure-caption: Gambar
+:icons: font
 ////
 Use this if you create a full cover in one page
 :front-cover-image: image::./images/title_page.png[]
 ////
-:title-logo-image: gambar/logo.png
+//:title-logo-image: gambar/logo.png
 
 
 [preface]
 = Preface 
 
-image::logo.png[Zimera Systems, 150, 150]
+image::logo-zimera.png[Zimera Systems, 150, 150]
 
 Buku ini merupakan buku bebas tentang bahasa pemrograman Go. Go merupakah bahasa pemrograman yang dirancang dan pertama kali diimplementasikan oleh Robert Griesemer, Rob Pike, dan Ken Thompson di Google. Go banyak digunakan pada sistem terdistribusi dan sistem berbasis Cloud. Buku ini dibuat dengan sponsor dari Zimera Systems dan mempunyai lisensi *Creative Commons Attribution-ShareAlike 4.0 International*.
 

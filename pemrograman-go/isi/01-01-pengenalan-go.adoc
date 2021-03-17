@@ -1,4 +1,42 @@
 == Pengenalan Go
 
-=== Sub Section 1
+=== Apa itu Go?
+
+Go adalah nama bahasa pemrograman sekaligus nama implementasi dalam bentuk kompilator (`compiler`). Untuk pembahasan berikutnya, istilah `Go` akan mengacu juga pada spesifikasi bahasa pemrograman  serta peranti pengembangannya. Nama yang benar adalah `Go`, bukan `Golang` atau `golang`. Istilah `Golang` atau `golang` muncul karena nama domain `go.org` tidak tersedia saat itu dan mencari sesuatu melalui Google atau mesin pencari lainnya menggunakan kata kunci `Go` tidak menghasilkan hasil yang baik. Dengan demikian, untuk penyebutan di *hashtag* biasanya digunakan `#golang` sehingga mesin pencari bisa mengindeks dan memberikan hasil yang baik. Lihat FAQ tentang Go di https://golang.org/doc/faq#go_or_golang[https://golang.org/doc/faq#go_or_golang] untuk informasi lebih lanjut.
+
+=== Lisensi Go
+
+Go didistribusikan dengan menggunakan lisensi modifikasi dari BSD. Lisensi lengkap dari Go bisa diakses di http://golang.org/LICENSE[Lisensi Go]. Secara umum, penggunaaan lisensi ini mempunyai implikasi sebagai berikut: 
+
+* boleh digunakan untuk keperluan komersial maupun non-komersial tanpa batasan
+* boleh memodifikasi sesuai keperluan
+* boleh mendistribusikan
+* boleh memberikan sublisensi ke pihak lain
+* boleh memberikan garansi
+* tidak boleh menggunakan merk dagang Go
+* tanpa jaminan dan jika terjadi kerusakan terkait penggunaan software ini maka pemberi lisensi tidak bisa dituntut
+* jika mendistribusikan harus mengikutsertakan pemberitahuan hak cipta.
+
+=== Instalasi Go
+
+Go tersedia pada berbagai platform. Proyek Go sendiri secara resmi mendukung platform Linux, FreeBSD, MacOSX, dan Windows. Dukungan tersebut merupakan dukungan resmi dan distribusi `binary executable` dari berbagai platform tersebut tersedia di http://golang.org/dl/[repository download Go] seperti pada gambar berikut:
+
+image::01-01/01-01.png[]
+
+Dengan dukungan tersebut, Proyek Go akan menerima laporan `bugs` terkait dengan distribusi pada berbagai platform tersebut. Meski demikian, bukan berarti platform-platform lain tidak bisa menggunakan Go karena distribusi dalam bentuk kode sumber tersedia dan telah berhasil dikompilasi ke berbagai platform: NetBSD, OpenBSD, DragonFlyBSD, dan lain-lain. Informasi mengenai platform-platform yang mungkin bisa digunakan oleh Go bisa diperoleh di https://github.com/golang/go/wiki#platform-specific-information[wiki].
+
+==== Download dan Install Go
+
+Download dan instalasi Go pada tulisan ini adalah download dan instalasi untuk lebih dari satu versi Go dan masing-masing menggunakan workspace sendiri-sendiri. Hal ini disebabkan karena seringkali software yang dibangun ditargetkan untuk lebih dari satu versi, misalnya Go 1.11 ke atas (Go 1.11.x, 1.12.x, dan 1.13.x). Kondisi ini menjadi tidak sederhana karena penulis tidak ingin mencampuraduk kode sumber yang dibuat menggunakan masing-masing versi. Go sendiri menyarankan untuk menggunakan satu workspace untuk semua proyek Go yang kita buat. Satu workspace saja tidak masalah jika hanya mentargetkan satu versi. Di bagian ini penulis akan menjelaskan konfigurasi yang penulis gunakan untuk menangani masalah tersebut.
+
+[IMPORTANT]
+.Lokasi instalasi Go
+====
+Go akan diinstall di direktori $HOME/software/go-dev-tools/goVERSI
+
+VERSI = versi dari Go yang akan diinstall, misalnya go1.12.7
+
+Lokasi instalasi tersebut digunakan penulis karena penulis mempunyai lebih dari 1 versi Go, jika nanti ada versi lainnya, versi lain tersebut akan di-install (misal versi 1.13.0) di $HOME/software/go-dev-tools/go1.13.0
+====
+
 

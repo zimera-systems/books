@@ -14,16 +14,17 @@ v0.0.1-rev-{localdatetime}
 :imagesdir: gambar
 :chapter-label: Bab
 :figure-caption: Gambar 
+:icons: font
 ////
 Jika satu gambar penuh - cover
 :front-cover-image: image::./images/title_page.png[]
 ////
-:title-logo-image: gambar/logo-rust.png
+//:title-logo-image: gambar/logo-rust.png
 
 [preface]
 = Pengantar
 
-image::logo.png[Zimera Systems, 150, 150]
+image::logo-zimera.png[Zimera Systems, 150, 150]
 
 Buku ini merupakan buku bebas tentang bahasa pemrograman Rust. Rust merupakan bahasa pemrograman yang pertama kali dibuat oleh Gordon Hoare di Mozilla Research dan bisa digunakan untuk berbagai domain permasalahan meskipun lebih banyak digunakan pada tatarn pemrograman sistem. Buku ini dibuat dengan sponsor dari Zimera Systems dan mempunyai lisensi *Creative Commons Attribution-ShareAlike 4.0 International*.
 
