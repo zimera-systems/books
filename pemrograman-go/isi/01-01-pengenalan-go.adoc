@@ -350,7 +350,7 @@ $
 
 ==== godoc
 
-`godoc` merupakan peranti untuk menampilkan dokumentasi paket pustaka standar Go atau menampilkan server untuk dokumentasi Go (mirip seperti yang terdapat pada [website dokumentasi Go](http://golang.org/doc/).
+`godoc` merupakan peranti untuk menampilkan dokumentasi paket pustaka standar Go atau menampilkan server untuk dokumentasi Go (mirip seperti yang terdapat pada http://golang.org/doc/[website dokumentasi Go].
 
 ```bash
 $ godoc --help
