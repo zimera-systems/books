@@ -1,4 +1,6 @@
 == Konkurensi dan Paralelisme
 
-=== Sub Section 1
+Konkurensi berbeda dengan paralelisme. Konkurensi berkaitan dengan "menangani banyak hal pada satu kurun waktu tertentu", sedangkan paralelisme terkait dengan "mengerjakan banyak hal pada satu saat tertentu".
+
+Go mendukung konkurensi dengan menggunakan `goroutine`, yaitu dengan menambahkan `go` pada bagian depan fungsi yang akan dijalankan secara konkuren. Untuk mengatur berbagai `goroutine`, bisa digunakan `channel`.
 
